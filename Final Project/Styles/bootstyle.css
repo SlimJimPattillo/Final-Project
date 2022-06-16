@@ -1,0 +1,54 @@
+
+.common{
+    position: absolute;
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+
+.lmenu{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+    padding-top: 50px;
+    size: 200px;
+}
+
+.mainbody{
+    top: 250px;
+    height: 200px;
+    left: 250px;
+    right: 250px;
+    bottom: 250px;
+    padding-right: 5px;
+    padding-top: 50px;
+}
+
+.rmenu{
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 64px;
+    padding-left: 5px;
+}
+
+.footer{
+    bottom: 5px;
+    height: 25px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    text-align: center;
+    position: fixed;
+}
+
+.subheader{
+    float: right;
+}

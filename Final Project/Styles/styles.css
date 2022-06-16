@@ -1,0 +1,55 @@
+/*Jeremy Pattillo Last Update June 15, 2022 */
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ color: black;
+ background-color: bisque;
+} 
+
+li{
+ font-size: 12px;
+ font-weight: normal;
+ font-style: italic;
+}
+
+a{
+ color: rgb(237, 127, 9);
+ text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.bold{
+   font-weight: bold; 
+   font-style: normal;
+   font-size: 14px;
+}
+
+.italic{
+    font-weight: bold; 
+    font-style: italic;
+    font-size: 14px;
+}
+.justify{text-align: justify;}
+
+.background{
+    background-image: url(../images/background.jpeg);
+    background-position: bottom,right;
+    background-size: cover;
+}
+
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.box2{
+    padding: 4px;
+}
+
+.box3{
+    margin: 4px;
+}
